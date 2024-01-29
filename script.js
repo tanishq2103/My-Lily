@@ -5,9 +5,9 @@ function startQuestions() {
   function answerYes() {
     document.getElementById("questions").style.display = "none";
       document.getElementById("que").style.display = "none";
-      document.getElementById("init").innerText = "YEA ";
+      document.getElementById("init").innerText = "YEA 🎉🎉 ";
     document.getElementById("message").style.display = "block";
-    document.getElementById("messageText").innerText = "Let's make new memories, make some love and cherish those moments";
+    document.getElementById("messageText").innerText = "Let's create new memories, make some love and cherish those moments";
     showConfetti()
 }
   
